@@ -11,6 +11,7 @@ from flask_api import status
 import requests
 
 PORT = 8080
+hi world
 BASE_URL = f"http://localhost:{PORT}"
 
 class MyLbgApiTestCase(unittest.TestCase):
